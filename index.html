@@ -1,15 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">    <!-- Основной язык сайта -->
   <head>
       <meta charset="UTF-8">
-      <link rel="stylesheet" href="assets/css/style.css">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="stylesheet" href="assets/css/style.css">   <!-- Путь к css документу со стилями -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">  <!-- Ссылка с GoogleFonts на стили -->
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/all.css">
+      <link rel="stylesheet" href="jquery.mCustomScrollbar.css">
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+      
       <title>Happy box</title>
   </head>
 
   <body>
-      <h1>Happy Box</h1>
+    <script type="text/javascript">
+        $(document).ready(function(){
+           $("#nav").on("click","a", function (event) {
+               event.preventDefault();
+               var id  = $(this).attr('href'),
+                   top = $(id).offset().top;
+               $('body,html').animate({scrollTop: top}, 1500);
+           });
+       });
+    </script>
+    <div class="header" id="nav">
+        <div class="containerr">
+            <div class="header__inner">
+                <a class="header__logo" href="#offer">
+                    <i class="fa-solid fa-gift"></i>
+                    <div class="header__logo__text">Happy box</div>
+                </a>
+
+                <nav class="nav">
+                    <a class = "nav__link" href = "#advantage">advantage</a>
+                    <a class = "nav__link" href = "#experiences">experiences</a>
+                    <a class = "nav__link" href = "#delivery">delivery</a>
+                    <a class = "nav__link" href = "#tastes">tastes</a>
+                    <a class = "nav__link" href = "#">reviews</a>
+                    <a class = "telephone__link" href = "#">+123 45 6789 6789</a>
+                
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="offer" id="offer">
+        <div class="container">
+            <div class="scale">
+                <h1 class = "Make_a_gift_with">Make a gift with</h1>
+                <h1 class = "macaroons">macaroons</h1>
+                <h1 class = "descryption">Shop macaroons boxes and pyramids, the perfect gift with nationwide shipping.</h1>
+                <a href="" class="gradient-button">order now</a>
+            </div>
+            <div class="square1"></div>
+            <div class="square2"></div>
+            
+           <div class="pic1Scale">
+               <div class="picture1"></div>
+               <div class="pic1Text">Birthday macaroons set</div>
+           </div>
+           
+           <div class="pic2Scale">
+               <div class="picture2"></div>
+               <div class="pic2Text">Rainbow macaroons set</div>
+           </div>
+        </div>
+    </div>
+
+    <div class="benefits" id="advantage">
+        <div class="container2">
+            <div class="benefitsSquare" style="margin-left: 75px;">
+                <div class="cake"></div>
+                <div class="advantageText">Create gifts</div>
+                <div class="advantageDescryption">We offer a wide range of gifts ranging from sweet biscuits to our own baked cakes. Its a great opportunity to make a gift to your relatives and friends.</div>
+            </div>
+            <div class="benefitsSquare" style="margin-left: 505px;">
+                <div class="truck"></div>
+                <div class="advantageText">Fast delivery</div>
+                <div class="advantageDescryption">We will deliver your delicious treats as soon as possible. We have not only tasty, but also fast delivery and high quality.</div>
+            </div>
+            <div class="benefitsSquare" style="margin-left: 935px;">
+                <div class="packages"></div>
+                <div class="advantageText" style="margin-top: -55px;">Big choice</div>
+                <div class="advantageDescryption">Even if you do not know what is better to order, it does not matter. Our best confectioners and critics will help you make the right choice</div>
+            </div>
+        </div>
+        <div class="container3", style="margin-top: -40px;" id="experiences">
+            <div class="advantageText2">Create positive emotional experieces around you</div>
+
+            <div class="menuBox">
+                <div class="miniSquare">
+                    <div class="gifts"></div>
+                </div>
+                <div class="menuBoxText">Make your friends happy</div>
+                <div class="menuBoxDescryption">Bring her one of her favorite treats. You know what your friend likes. Maybe she can't live without an afternoon coffee, or maybe she has a penchant for black forest cake. Surprise her by bringing one of them to her when you know she's having a rough day.</div>
+                <div class="miniSquare" style="margin-top: 65px;">
+                    <div class="heart"></div>
+                </div>
+                <div class="menuBoxText">Show them your love</div>
+                <div class="menuBoxDescryption">Do you know what your S.O.’s favorite snack is? Pick it up on your way to see them. It is a simple and easy way to put a smile on their face. It will also show them you know them like the back of your hand.</div>
+                <div class="miniSquare" style="margin-top: 65px;">
+                    <div class="plane"></div>
+                </div>
+                <div class="menuBoxText">Send him or her a card or postcard</div>
+                <div class="menuBoxDescryption">Not many people get handwritten notes anymore. It's so rare, in fact, that it's bound to put a smile on her face. Drop a note in the mail to her. If you include one with a funny card, that's a bonus.</div>
+            </div>
+
+            <div class="square3"></div>
+            <div class="square4"></div>
+            <div class="square5"></div>
+    
+            <div class="pic3Scale">
+                <div class="picture3"></div>
+                <div class="pic3Text">Alice, 23 y.o. teenager</div>
+            </div>
+            <div class="pic4Scale">
+                <div class="picture4"></div>
+                <div class="pic4Text">Kate, 25 y.o. professional model</div>
+            </div>
+            <div class="pic5Scale">
+                <div class="picture5"></div>
+                <div class="pic5Text">Jane, 24 y.o. experienced visagiste</div>
+            </div>
+        </div>
+    </div>
+    <div class="nextOffer" id="delivery">
+        <div class="container4">
+            <div class="square6">
+                <div class="pic6Scale">
+                    <div class="picture6"></div>
+                </div>
+                <div class="pic6Text">Bob, working as a delivery man in our company for 6 years</div>
+            </div>
+            <div class="deliveryText">Productive and effective place</div>
+            <div class="deliveryDescryption">I've got a huge experience working for that company because I have learned a lot and I appreciate everything and just advice everyone looking for work where you can work with your own team. I like seeing smile on people's faces. Thats what makes me feel better, and thats when i understand, thats my mission is not only to deliver, but also to give happiness.</div>
+            <div class="deliveryDescryption" style="margin-top: 285px;">Me and my team deliver everything as fast as it even possible. We working on how to improve the delivery process because we all understand what is the feeling when you are waiting for the tasty macaroons and other treats. If we are late with our delivery, we always give some bonuses to our clients. Wanna challenge us? :)</div>
+            <div class="deliveryNum">01</div>
+            <div class="deliveryPlus">tasty</div>
+            <div class="deliveryNum" style="margin-left: 185px;">02</div>
+            <div class="deliveryPlus" style="margin-left: 225px;">fast</div>
+            <div class="deliveryNum" style="margin-left: 300px;">03</div>
+            <div class="deliveryPlus" style="margin-left: 340px;">emotional</div>
+        </div>
+        <div class="container5" id="tastes">
+            <div class="tasteText">Choose to your</div>
+            <div class="taste">taste</div>
+            <div class="tasteDescryption">Taste is one of the five senses that people have. When you have food or drink in your mouth, your sense of taste makes it possible for you to recognize what it is.</div>
+
+            <div class="photoBar">
+                <div class="littleSquare"></div>
+                <div class="bigSquare"></div>
+                <div class="littleSquare" style="margin-left: 955px;"></div>
+                <div class="littleSquare" style="margin-left: 1275px;"></div>
+                <div class="circle"></div>
+                <div class="circle" style="margin-left: 880px;"></div>
+                <div class="macaroon1"></div>
+                <div class="macaroon2"></div>
+                <div class="macaroon2Text">Fruits macaroon set</div>
+                <div class="macaroon2Descryption">This set consists of macaroons is made with the ussage of natural fruits juice, such as apple, mango, strawbery, lemon, orange, etc.</div>
+                <div class="macaroon2Price">$24</div>
+                <div class="macaroon2PriceDescryption">for 16 macaroons</div>
+                <a href="" class="orderButton">order now</a>
+                <div class="macaroon3"></div>
+                <div class="macaroon4"></div>
+
+
+                <div class="littleCircle"></div>
+                <div class="littleCircle" style="margin-left: 585px;"></div>
+                <div class="littleCircle" style="margin-left: 605px;"></div>
+                <div class="sliderMain"></div>
+                <div class="littleCircle" style="margin-left: 695px;"></div>
+                <div class="littleCircle" style="margin-left: 715px;"></div>
+                <div class="littleCircle" style="margin-left: 735px;"></div>
+                <i class="fa-solid fa-angle-left"></i>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+    </div>
   </body>
 </html>
