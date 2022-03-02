@@ -553,11 +553,12 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-box-shadow:0 0 5px #7f74ff;
     box-shadow:0 0 5px #7f74ff;
 
-    margin-left: 345px;
-    margin-top: 1260px;
+    margin-left: 310px;
+    /*margin-top: 1260px;*/
+    margin-top: -150px;
     z-index: 1003;
 
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -575,11 +576,12 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-box-shadow:0 0 5px #7f74ff;
     box-shadow:0 0 5px #7f74ff;
 
-    margin-left: 90px;
-    margin-top: 1390px;
+    margin-left: 75px;
+    /*margin-top: 1390px;*/
+    margin-top: -200px;
     z-index: 1005;
 
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -593,7 +595,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
     max-height: 300px;
     margin-left: 90px;
-    margin-top: -505px;
+    margin-top: -810px;
     line-height: 1.2;
     z-index: 1002;
 
@@ -610,8 +612,8 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 360px;
     height: 100%;
     max-height: 300px;
-    margin-left: 319px;
-    margin-top: -250px;
+    margin-left: 322px;
+    margin-top: -235px;
     line-height: 1.2;
     z-index: 1004;
 
@@ -628,8 +630,8 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 360px;
     height: 100%;
     max-height: 300px;
-    margin-left: -20px;
-    margin-top: -165px;
+    margin-left: 2px;
+    margin-top: -180px;
     line-height: 1.2;
     z-index: 1006;
 
@@ -850,27 +852,27 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 36px;
     font-weight: 600;
     color:black;
-    position: absolute;
+    position: relative;
 }
 
 .taste {
     max-width: 700px;
     margin-left: 810px;
-    margin-top: 160px;
+    margin-top: -57px;
     font-size: 36px;
     font-weight: 600;
     color:#7f74ff;
-    position: absolute;
+    position: relative;
 }
 
 .tasteDescryption {
     max-width: 620px;
     margin-left: 400px;
-    margin-top: 235px;
+    margin-top: 0px;
     font-size: 14px;
     font-weight: 400;
     color:gray;
-    position: absolute;
+    position: relative;
     text-align: center;
 }
 
@@ -948,8 +950,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .macaroon1 {
-
-
     margin-left: 120px;
     margin-top: 2660px;
     line-height: 1.2;
@@ -1044,46 +1044,46 @@ h1, h2, h3, h4, h5, h6 {
 .macaroon2Text {
     max-width: 360px;
     margin-left: 415px;
-    margin-top: 715px;
+    margin-top: 445px;
     font-size: 30px;
     font-weight: 600;
     color:black;
     z-index: 1007;
-    position: absolute;
+    position: relative;
     line-height: 30px;
 }
 
 .macaroon2Descryption {
     max-width: 440px;
     margin-left: 415px;
-    margin-top: 750px;
+    margin-top: 5px;
     font-size: 14px;
     font-weight: 400;
     color:gray;
     z-index: 1007;
-    position: absolute;
+    position: relative;
     line-height: 30px;
 }
 
 .macaroon2Price {
     font-size: 25px;
     margin-left: 415px;
-    margin-top: 810px;
+    margin-top: 5px;
     font-weight: 600;
     text-align:left;
     color: black;   
-    position: absolute;
+    position: relative;
     z-index: 1007;
 }
 
 .macaroon2PriceDescryption {
     margin-left: 465px;
-    margin-top: 821px;
+    margin-top: -30px;
     text-align:left;
     font-size: 14px;
     font-weight: 400;
     color:gray;
-    position: absolute;
+    position: relative;
     z-index: 1007;
 }
 
@@ -1091,8 +1091,8 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     display: inline-block;
     color: white;
-    padding: 5px 50px;
-    margin: 813px 640px;
+    padding: 1px 60px;
+    margin: -24px 600px;
     border-radius: 5px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
