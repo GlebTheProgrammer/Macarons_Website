@@ -1206,3 +1206,371 @@ h1, h2, h3, h4, h5, h6 {
 .fa-angle-right:hover {
     opacity: 1;
 }
+
+.saleOffer {
+    background-image: url(../images/sale.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 200px 0;
+    z-index: 1000;
+}
+
+.saleIcon {
+    background-image: url(../images/10-percent.png);
+    position: relative;
+    bottom: 100px;
+    z-index: 1001;
+    height: 128px;
+    margin: 0 auto;
+    width: 128px;
+}
+
+.float-text{
+    position: relative;
+    bottom: 70px;
+    text-align: center;
+    z-index: 1001;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.searchBar{
+    position: relative;
+    align-items: center;
+    display: flex;
+    width: 1440px;
+    left: -18%;
+    color:#7f74ff;
+}
+
+.emailTxt{
+    font-weight: 400;
+    font-size: 18px;
+    color: gray;
+}
+
+.block{
+    position: relative;
+    width: 840px;
+    height: 1px;
+    border: 1px;
+    background-color: #7f74ff;
+    left: 22%
+}
+
+.reviews{
+    background-image: url(../images/Reviews.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1001;
+    padding: 360px 0;
+}
+
+.reviewsBlock{
+    bottom: -45px;
+    position: relative;
+    width: 700px;
+    height: 300px;
+    border: 100px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    left: 28%;
+    z-index: 1002;
+    -moz-box-shadow:0 0 1px #000000;
+    -webkit-box-shadow:0 0 1px #000000;
+    box-shadow:0 0 1px #000000;
+}
+
+.person1{
+    background-image: url(../images/person1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1003;
+    width: 60px;
+    height: 60px; 
+    border: 3px solid rgb(139, 34, 180);
+    border-radius: 50%;  
+    margin-left: 50px;
+    margin-top: 3%;
+    position: absolute;
+}
+
+.personName{
+    font-weight: 400;
+    font-size: 18px;
+    color: gray;
+    margin-left: 125px;
+    position: absolute;
+    margin-top: 6%;
+}
+
+.commentTxt {
+    max-width: 580px;
+    margin-left: 70px;
+    margin-top: 13%;
+    font-size: 14px;
+    font-weight: 400;
+    color:black;
+    z-index: 1007;
+    position: absolute;
+    line-height: 25px;
+}
+
+.circleReviewL {
+    width: 100%;
+    max-width: 40px;
+    height: 100%;
+    max-height: 80px;
+    background:white;
+    border-radius: 5px;
+    -moz-box-shadow:0 0 1px black;
+    -webkit-box-shadow:0 0 1px black;
+    box-shadow:0 0 1px black;
+
+    z-index: -1;
+
+    
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+
+    position: absolute;
+    margin-top: 110px;
+    margin-left: -40.2px;
+}
+
+.circleReviewR {
+    width: 100%;
+    max-width: 40px;
+    height: 100%;
+    max-height: 80px;
+    background:white;
+    border-radius: 5px;
+    -moz-box-shadow:0 0 1px black;
+    -webkit-box-shadow:0 0 1px black;
+    box-shadow:0 0 1px black;
+
+    z-index: -1;
+
+    
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 700.7px;
+}
+
+.scroll{
+    bottom: -45px;
+    width: 700px;
+    height: 300px;
+    z-index: 1001;
+}
+
+.fa-instagram{
+    margin-top: -130px;
+    margin-left: 580px;
+    position: absolute;
+    font-size: 30px;
+    color: #8c82ff;
+}
+
+.fa-facebook-square{
+    margin-top: -130px;
+    margin-left: 625px;
+    position: absolute;
+    font-size: 30px;
+    color: #8c82ff;
+}
+
+.read__link {
+    display: inline-block;
+    vertical-align: top;
+    font-weight:400;
+    margin-left: 575px;
+    margin-top: 55px;
+   
+    position: absolute;
+
+    color: #7f74ff;
+    text-decoration: none;
+
+    transition: color 0.1s linear;
+}
+
+.read__link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+
+    background-color:#7f74ff;
+    opacity: 0;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+
+    transition: opacity 0.1s linear;
+}
+
+.read__link:hover {
+    color: #7f74ff;
+}
+
+.read__link:hover::after {
+    opacity: 1;
+}
+
+.person2{
+    background-image: url(../images/person2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1003;
+    width: 80px;
+    height: 80px; 
+    border: 3px solid rgb(139, 34, 180);
+    border-radius: 50%;  
+    margin-left: -220px;
+    margin-top: -5%;
+    position: absolute;
+}
+
+.person3{
+    background-image: url(../images/person3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1003;
+    width: 110px;
+    height: 110px; 
+    border: 3px solid rgb(139, 34, 180);
+    border-radius: 50%;  
+    margin-left: -350px;
+    margin-top: 13%;
+    position: absolute;
+}
+
+.person4{
+    background-image: url(../images/person4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1003;
+    width: 70px;
+    height: 70px; 
+    border: 3px solid rgb(139, 34, 180);
+    border-radius: 50%;  
+    margin-left: -200px;
+    margin-top: 29%;
+    position: absolute;
+}
+
+.person5{
+    background-image: url(../images/person5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1003;
+    width: 90px;
+    height: 90px; 
+    border: 3px solid rgb(139, 34, 180);
+    border-radius: 50%;  
+    margin-left: 800px;
+    margin-top: -5%;
+    position: absolute;
+}
+
+.person6{
+    background-image: url(../images/person6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1003;
+    width: 120px;
+    height: 120px; 
+    border: 3px solid rgb(139, 34, 180);
+    border-radius: 50%;  
+    margin-left: 900px;
+    margin-top: 13%;
+    position: absolute;
+}
+
+.person7{
+    background-image: url(../images/person7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1003;
+    width: 80px;
+    height: 80px; 
+    border: 3px solid rgb(139, 34, 180);
+    border-radius: 50%;  
+    margin-left: 780px;
+    margin-top: 29%;
+    position: absolute;
+}
+
+.subscribe{
+    height: 269px;
+    background: 
+    url("../images/subscribe.jpg") center
+    no-repeat;
+    background-size: 100%;
+}
+
+.logoEnd{
+    justify-content: space-between;
+    margin-left: 115px;
+    height: 30px;
+    position: relative;
+    margin-top: 0px;
+}
+
+.fa-pos{
+    margin-top: 45px;
+    font-size: 24px;
+    margin-right: 5px;
+    margin-left: 0px;
+}
+
+.footerTxt{
+    max-height: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+.underLogoTxt{
+    max-width: 340px;
+    margin-left: 120px;
+    margin-top: 95px;
+    font-size: 14px;
+    font-weight: 400;
+    color:black;
+    z-index: 1007;
+    position: absolute;
+    line-height: 25px;
+}
+
+.contacts{
+    position: absolute;
+    margin-left: 1220px;
+    color: grey;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 50px;
+}
+
+.icons{
+    position: absolute;
+    margin-left: 1400px;
+    color: #7f74ff;
+    margin-top: 50px;
+    width: 20px;
+    height: 20px;
+}
